@@ -1,0 +1,85 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/1/six.png",
+      "title": "Milla",
+      "description": "Milla az",
+      "url": "http://milla.az/"
+    },
+    {
+      "cover": "/portfolio/1/five.png",
+      "title": "Mfashion",
+      "description": "Mfashion",
+      "url": "https://mfashioninstitute.com/"
+    },
+    {
+      "cover": "/portfolio/1/two.png",
+      "title": "Install Group",
+      "description": "Install Group",
+      "url": "https://installgroup.az/"
+    },
+    {
+      "cover": "/portfolio/1/four.png",
+      "title": "Skywash",
+      "description": "Skywash",
+      "url": "https://skywash.az/"
+    },
+    {
+      "cover": "/portfolio/1/ten.png",
+      "title": "Casamia Home",
+      "description": "Casamia Home",
+      "url": "https://casamia.az/"
+    },
+    {
+      "cover": "/portfolio/1/mycar.png",
+      "title": "Rent a car",
+      "description": "Rent a car",
+      "url": "https://mycar.az/"
+    },
+
+    {
+      "cover": "/portfolio/1/voen.png",
+      "title": "Voen az",
+      "description": "Voen az",
+      "url": "https://voen.az/"
+    },
+    {
+      "cover": "/portfolio/1/three.png",
+      "title": "Invitro",
+      "description": "Invitro",
+      "url": "https://invitro.az/"
+    },
+    {
+      "cover": "/portfolio/1/one.png",
+      "title": "SSAL-2",
+      "description": "SSAL-2",
+      "url": "https://ssal-2.com/"
+    },
+
+    {
+      "cover": "/portfolio/1/nine.png",
+      "title": "Nas Project",
+      "description": "Nasproject",
+      "url": "https://nasproject.az/"
+    },
+    {
+      "cover": "/portfolio/1/drnarmina.png",
+      "title": "Doctor Narmina",
+      "description": "Doctor Narmina",
+      "url": "https://drnarmina.az/"
+    },
+
+    {
+      "cover": "/portfolio/1/bluecenter.png",
+      "title": "Blue Center",
+      "description": "Blue Center",
+      "url": "https://bluecenter.az/"
+    },
+    {
+      "cover": "/portfolio/1/seven.png",
+      "title": "Hayat Hospital",
+      "description": "Hayat Hospital",
+      "url": "https://hayathospital.az/"
+    }
+  ]
+}
