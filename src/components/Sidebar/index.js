@@ -17,27 +17,27 @@ import {
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
+      <Link className="logo" to="portfolio-react-app">
         <img src={logoS} alt="logo" /> 
       </Link>
       <nav>
-        <NavLink exact="true" activeclassname="active" to="/">
+        <NavLink exact="true" activeclassname="active" to="portfolio-react-app">
           <FontAwesomeIcon icon={faHome} color="#4d4d4d" />
         </NavLink>
-        <NavLink activeclassname="active" className="about-link" to="/about">
+        <NavLink activeclassname="active" className="about-link" to="portfolio-react-app/about">
           <FontAwesomeIcon icon={faUser} color="#4d4d4d" />
         </NavLink>
         <NavLink
           activeclassname="active"
           className="portfolio-link"
-          to="/portfolio"
+          to="portfolio-react-app/portfolio"
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4d" />
         </NavLink>
         <NavLink
           activeclassname="active"
           className="contact-link"
-          to="/contact"
+          to="portfolio-react-app/contact"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4d" />
         </NavLink>
