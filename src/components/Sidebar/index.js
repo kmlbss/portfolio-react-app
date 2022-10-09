@@ -24,20 +24,20 @@ const Sidebar = () => {
         <NavLink exact="true" activeclassname="active" to="portfolio-react-app">
           <FontAwesomeIcon icon={faHome} color="#4d4d4d" />
         </NavLink>
-        <NavLink activeclassname="active" className="about-link" to="portfolio-react-app/about">
+        <NavLink activeclassname="active" className="about-link" to=" /about">
           <FontAwesomeIcon icon={faUser} color="#4d4d4d" />
         </NavLink>
         <NavLink
           activeclassname="active"
           className="portfolio-link"
-          to="portfolio-react-app/portfolio"
+          to=" /portfolio"
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4d" />
         </NavLink>
         <NavLink
           activeclassname="active"
           className="contact-link"
-          to="portfolio-react-app/contact"
+          to=" /contact"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4d" />
         </NavLink>
