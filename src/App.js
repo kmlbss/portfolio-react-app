@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes,BrowserRouter } from 'react-router-dom'
 import './App.scss'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -9,12 +9,13 @@ function App() {
   return (
      <>
 
-      <Routes>
-        <Route path="portfolio-react-app" element={<Layout />} >  
+      <Routes >
+      <BrowserRouter basename="/portfolio-react-app"/>
+        <Route path="/" element={<Layout />} >  
         <Route index element={<Home />} />
-        <Route path='portfolio-react-app/about' element={<About />} />
-        <Route path='portfolio-react-app/contact' element={<Contact />} />
-        <Route path='portfolio-react-app/portfolio' element={<Portfolio />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/contact' element={<Contact />} />
         </Route> 
       </Routes>
      </>
