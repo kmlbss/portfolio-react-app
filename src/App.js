@@ -10,14 +10,12 @@ function App() {
      <>
 
       <Routes>
-        <Route path="my-portfolio-react-app" element={<Layout />} >
-
+        <Route path="my-portfolio-react-app" element={<Layout />} >  
         <Route index element={<Home />} />
         <Route path='my-portfolio-react-app/about' element={<About />} />
         <Route path='my-portfolio-react-app/contact' element={<Contact />} />
         <Route path='my-portfolio-react-app/portfolio' element={<Portfolio />} />
-        </Route>
-
+        </Route> 
       </Routes>
      </>
 
