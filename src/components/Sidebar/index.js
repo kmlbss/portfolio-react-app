@@ -17,11 +17,11 @@ import {
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="portfolio-react-app">
+      <Link className="logo" to="/">
         <img src={logoS} alt="logo" /> 
       </Link>
       <nav>
-        <NavLink exact="true" activeclassname="active" to="portfolio-react-app">
+        <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4d" />
         </NavLink>
         <NavLink activeclassname="active" className="about-link" to="portfolio-react-app/about">
