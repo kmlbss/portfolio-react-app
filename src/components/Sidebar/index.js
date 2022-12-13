@@ -17,11 +17,11 @@ import {
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="portfolio-react-app">
+      <Link className="logo" to="portfolio-react-app/">
         <img src={logoS} alt="logo" /> 
       </Link>
       <nav>
-        <NavLink exact="true" activeclassname="active" to="portfolio-react-app">
+        <NavLink exact="true" activeclassname="active" to="portfolio-react-app/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4d" />
         </NavLink>
         <NavLink activeclassname="active" className="about-link" to="portfolio-react-app/about">
@@ -70,7 +70,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://medium.com/@shamilovakemale"
+            href="https://medium.com/@shamilovakamala"
           >
             <FontAwesomeIcon icon={faMedium} color="#4d4d4d" />
           </a>
